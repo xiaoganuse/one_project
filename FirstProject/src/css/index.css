@@ -1,0 +1,999 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #777777;
+}
+
+.w {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+
+/*hreader-头部代码 */
+
+.hreader {
+    height: 200px;
+    width: 100%;
+    border-bottom: 1px solid rebeccapurple;
+}
+
+.hreader_1 {
+    height: 29px;
+    width: 100%;
+    border-bottom: 1px solid #E4E4E4;
+    background-color: #FAFAFA;
+}
+
+.hreader_2 {
+    height: 31px;
+}
+
+
+/* 导航栏左 */
+
+.select_left {
+    height: 30px;
+    width: 420px;
+    float: left;
+}
+
+.select_left span {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+
+.select_left>span {
+    width: 85px;
+}
+
+.select_left>span>div {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url("../img/images/icon-189-indexv2.png") no-repeat;
+    background-position: -67px -836px;
+}
+
+.select_left>span>a {
+    width: 64px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+
+.select_left_span1 a:hover {
+    color: red;
+}
+
+.select_left .select_left_span2 {
+    width: 110px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #7D8b8c;
+    margin-left: 20px;
+}
+
+
+/* 导航栏右 */
+
+.select_right {
+    height: 29px;
+    width: 590px;
+    float: right;
+    border-bottom: 1px solid #e4e4e4;
+    z-index: 10000;
+}
+
+.select_right>ul>li {
+    float: left;
+}
+
+
+/* 第一个li的位置 */
+
+.select_right_dv1 {
+    display: inline-block;
+    width: 12px;
+    height: 14px;
+    background: url("../img/images/icon-189-indexv2.png") no-repeat;
+    background-position: -103px -836px;
+    position: relative;
+    left: 5px;
+}
+
+.select_right>ul>li:nth-child(1) {
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+.select_right_dv2 {
+    margin-bottom: 3px;
+    margin-left: 8px;
+    width: 8px;
+    height: 4px;
+    display: inline-block;
+    background: url("../img/images/icon-189-indexv2.png") no-repeat;
+    background-position: -281px -839px;
+}
+
+.select_right_dv1_a {
+    position: relative;
+    left: 6px;
+}
+
+.select_right>ul>li:nth-child(1):hover ul {
+    position: absolute;
+    top: 0px;
+    width: 90px;
+    height: 150px;
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.select_right>ul>li:nth-child(1):hover li {
+    display: block;
+    background-color: #ffffff;
+}
+
+.select_right>ul>li:nth-child(1) ul li {
+    text-align: center;
+    display: none;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.select_right>ul>li:nth-child(1) ul li:hover a {
+    color: #FF8200;
+    text-decoration: underline;
+}
+
+.select_right>ul>li:nth-child(1) ul li .select_right_dv2 {
+    background: url("../img/images/icon-189-indexv2.png") no-repeat;
+    background-position: -318px -839px;
+}
+
+
+/* 第三个li的位置 */
+
+.select_right>ul>li:nth-child(3) {
+    width: 116px;
+    height: 30px;
+}
+
+.select_right>ul>li:nth-child(3) a {
+    margin-top: 3px;
+    line-height: 30px;
+}
+
+.select_right>ul>li:nth-child(3) .select_dv1_li3 {
+    display: inline-block;
+    width: 12px;
+    height: 14px;
+    background: url("../img/images/icon-189-indexv2.png") no-repeat;
+    background-position: -138px -837px;
+    vertical-align: middle;
+}
+
+.select_right>ul>li:nth-child(3) a:hover {
+    color: #FF8200;
+}
+
+.select_right>ul>li:nth-child(3) .select_dv2_li3 {
+    margin-right: 3px;
+    position: relative;
+    right: 3px;
+}
+
+.select_right>ul>li:nth-child(3) ul li {
+    width: 209px;
+    position: relative;
+    z-index: 10;
+}
+
+.select_right>ul>li:nth-child(3) ul li img {
+    display: none;
+}
+
+.select_right>ul>li:nth-child(3):hover img {
+    display: block;
+}
+
+
+/* 第五个li位置 */
+
+.select_right>ul>li:nth-child(5) {
+    width: 69px;
+    height: 30px;
+}
+
+.select_right>ul>li:nth-child(5) a {
+    line-height: 30px;
+    margin-right: 3px;
+    position: relative;
+    right: 2px;
+}
+
+.select_right>ul>li:nth-child(5) .select_dv3_li5_img {
+    vertical-align: middle;
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+    background: url("../img/images/icon-189-indexv2.png") no-repeat;
+    background-position: -175px -836px;
+}
+
+.select_right>ul>li:nth-child(5) a:hover {
+    color: #FF8200;
+}
+
+
+/* 第七个li的位置 */
+
+.select_right>ul>li:nth-child(7) {
+    width: 107px;
+    height: 30px;
+}
+
+.select_right>ul>li:nth-child(7) a {
+    line-height: 30px;
+    position: relative;
+    right: 2px;
+}
+
+.select_right>ul>li:nth-child(7) a:hover {
+    color: #FF8200;
+}
+
+.select_right>ul>li:nth-child(7) .select_dv3_li7_img {
+    background: url("../img/images/icon-189-indexv2.png") no-repeat;
+    width: 15px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: -246px -837px;
+}
+
+.select_right>ul>li:nth-child(7) ul {
+    width: 107px;
+    height: 128px;
+    position: relative;
+    top: -30px;
+    display: none;
+    background-color: white;
+}
+
+.select_right>ul>li:nth-child(7):hover ul {
+    display: block;
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.select_right>ul>li:nth-child(7) ul li img {
+    position: relative;
+    left: 13px;
+    bottom: 21px;
+}
+
+
+/* 第九个Li的位置*/
+
+.select_right>ul>li:nth-child(9) {
+    width: 83px;
+    height: 30px;
+}
+
+.select_right>ul>li:nth-child(9) .select_dv3_li8 {
+    line-height: 30px;
+    position: relative;
+    right: 1px;
+}
+
+.select_right>ul>li:nth-child(9) .select_dv3_li8_img {
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+    background: url("../img/images/wtdlczq (1).jpg") no-repeat;
+    position: relative;
+    top: 3px;
+}
+
+.select_right>ul>li:nth-child(9) .select_dv3_li8:hover {
+    color: #FF8200;
+}
+
+.select_right>ul>li:nth-child(11) {
+    width: 60px;
+    height: 30px;
+}
+
+.select_right>ul>li:nth-child(11) .select_dv3_li9 {
+    line-height: 30px;
+}
+
+.select_right>ul>li:nth-child(11) .select_dv3_li9:hover {
+    color: #FF8200;
+}
+
+
+/* 给select_right中的偶数个li添加左右边距 */
+
+.select_right ul li:nth-child(2n) {
+    margin-right: 8px;
+    color: #CFDAEA;
+    position: relative;
+    top: 3px;
+}
+
+
+/* 下面是css的logo代码快 */
+
+.logo {
+    height: 120px;
+    width: 1200px;
+}
+
+.logo-left-pic {
+    float: left;
+    width: 223px;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.logo-right-input-pic {
+    width: 952px;
+    height: 119px;
+    float: right;
+}
+
+.input-select-city {
+    height: 66px;
+    width: 82px;
+    margin-top: 34px;
+    float: left;
+}
+
+.input-select-city-input1,
+.input-select-city-input2 {
+    width: 79px;
+    height: 27px;
+    background: url("../img/images/icon-189-indexv2.png") no-repeat;
+    background-position: -230px -19px;
+    border: 1px solid #EBE8E6;
+}
+
+.input-select-city-input1 .input-select-city-input1-Allselect1>a,
+.input-select-city-input2 .input-select-city-input1-Allselect2>a {
+    padding-left: 15px;
+    line-height: 29px;
+}
+
+.input-select-city-input2>ul {
+    z-index: 1;
+}
+
+.input-select-city-input1 {
+    margin-bottom: 5px;
+}
+
+.input-select-city-input1 ul {
+    width: 450px;
+    height: 118px;
+    position: relative;
+    top: -1px;
+    background-color: white;
+    box-shadow: 0px 5px 4px 0px rgba(0, 0, 0, 0.08);
+    display: none;
+    z-index: 1000;
+}
+
+.input-select-city-input1:hover ul {
+    display: block;
+    border: 1px solid #EBE8E6;
+}
+
+.input-select-city-input1 ul li span a:hover {
+    color: #ff8201;
+}
+
+.input-select-city-input1 ul li {
+    width: 400px;
+    height: 27px;
+}
+
+.input-select-city-input1 ul li:nth-child(1) span {
+    display: inline-block;
+}
+
+.input-select-city-input1 .span1 {
+    color: #ff8201;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    margin-left: 15px;
+}
+
+.input-select-city-input1 .span2 a {
+    color: #777777;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.input-select-city-input2 ul {
+    display: none;
+    width: 250px;
+    height: 120px;
+    background-color: white;
+    border: 1px solid #EBE8E6;
+}
+
+.input-select-city-input2 ul li {
+    height: 31px;
+    width: 250px;
+    background-color: white;
+}
+
+.input-select-city-input2:hover ul {
+    display: block;
+    position: relative;
+    top: -1px;
+}
+
+.input-select-city-input2 ul li a:hover {
+    color: #ff8201;
+}
+
+.input-select-city-input2 ul li a {
+    margin-right: -8px;
+    line-height: 27px;
+    margin-left: 15px;
+}
+
+
+/* form区域input区域 */
+
+.logo-right {
+    width: 838px;
+    height: 104px;
+    float: right;
+}
+
+.logo-right-form {
+    width: 410px;
+    height: 91px;
+    margin-top: 13px;
+    float: left;
+}
+
+.logo-right-form .logo-right-form-inpu1 {
+    width: 80px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    cursor: pointer;
+}
+
+.logo-right-form .logo-right-form-inpu1 a {
+    color: white;
+}
+
+.logo-right-form .logo-right-form-inpu2 {
+    position: relative;
+    width: 504px;
+    height: 36px;
+    border: 1px solid darkorange;
+    z-index: 0;
+}
+
+.logo-right-form .logo-right-form-inpu2 img {
+    float: left;
+}
+
+.logo-right-form .logo-right-form-inpu2 ul {
+    width: 420px;
+    float: left;
+    margin-top: 4px;
+}
+
+.logo-right-form .logo-right-form-inpu2 ul .logo-right-form-inpu2-input {
+    width: 389px;
+    outline: none;
+    border: none;
+}
+
+.logo-right-form .logo-right-form-inpu2 a {
+    width: 90px;
+    height: 35px;
+    background-color: darkorange;
+    float: left;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: 1px solid darkorange;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    font-size: 16px;
+}
+
+.logo-right-form .logo-right-form-inpu3 {
+    height: 23px;
+    width: 550px;
+}
+
+.logo-right-form .logo-right-form-inpu3 .recommend {
+    height: 16px;
+}
+
+.logo-right-form .logo-right-form-inpu3 .recommend a {
+    color: #9b9b9b;
+    font: 12px "微软雅黑";
+    padding: 0px 8px;
+}
+
+.logo-right-form .logo-right-form-inpu3 .recommend a:nth-child(1) i {
+    background: url("../img/images/RE.png") no-repeat;
+    width: 18px;
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+}
+
+.logo-right-form .logo-right-form-inpu3 .recommend a:nth-child(2) i {
+    background: url("../img/images/RE.png") no-repeat;
+    width: 18px;
+    height: 10px;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+}
+
+
+/* 扫一扫区域 */
+
+.logo-right-sao-sao {
+    width: 323px;
+    height: 70px;
+    float: right;
+    margin-top: 15px;
+}
+
+.logo-right-sao-sao-img {
+    float: left;
+    width: 166px;
+    height: 70px;
+    position: relative;
+    z-index: -1;
+}
+
+.logo-right-sao-sao-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-right-sao-saoApp {
+    float: right;
+    width: 146px;
+    height: 70px;
+}
+
+.logo-right-sao-saoApp img {
+    width: 146px;
+    height: 70px;
+}
+
+.nav_red {
+    width: 100%;
+    height: 45px;
+    background-color: #ff8200;
+    margin-top: 6px;
+}
+
+.content {
+    width: 1200px;
+    height: 45px;
+    /* background-color: red; */
+}
+
+.menu_01 {
+    width: 190px;
+    height: 45px;
+    background-color: #FFAD00;
+    float: left;
+}
+
+.menu_01>a {
+    background: url("../img/images/icon-189-indexv2.png") no-repeat;
+    display: block;
+    width: 190px;
+    height: 45px;
+    background-position: -223px -716px;
+}
+
+.nav_down {
+    width: 190px;
+    height: 420px;
+    /* background-color: #FAFAFA; */
+    background-color: #fff;
+    display: block;
+}
+
+.nav_down ul {
+    position: relative;
+}
+
+.nav_down ul li {
+    width: 129px;
+    height: 59px;
+    padding-left: 60px;
+    line-height: 59px;
+    font-size: 14px;
+    border-bottom: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    color: #6d6d6d;
+    background: url("../img/images/icon-189-indexv2.png") no-repeat;
+    background-position: -6px -39px;
+    /* position: relative; */
+    background-color: #fafafa;
+    background-position: -1px -150px !important;
+}
+
+
+/* 选择操作 */
+
+.nav_down ul li:nth-child(1) .nav_deown_ul_li_a {
+    color: #777777;
+    font-size: 14px;
+}
+
+.nav_down ul li:nth-child(1)>a {
+    font-size: 14px;
+}
+
+.nav_down ul li:nth-child(1)>a:hover {
+    color: #ff8201;
+}
+
+
+/* 
+.nav_down ul li:nth-child(2) .down-02 {
+    position: absolute;
+    top: -60px;
+} */
+
+.nav_down ul li .down-01 {
+    width: 609px;
+    height: 426px;
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    display: none;
+    /* border: 1px solid #ccc; */
+    box-shadow: 3px 2px #cccaca;
+    background-color: white;
+    z-index: 100;
+}
+
+.down-01 .demo-ul01 {
+    width: 550px;
+    line-height: 30px;
+    font-size: 12px;
+    margin: 0px 20px;
+    border-bottom: 1px solid #f3f3f3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.demo-ul01 span:nth-child(1) {
+    font-weight: 600;
+    font-size: 12px;
+    margin-right: 45px;
+}
+
+.demo-ul01 span:nth-child(2) span {
+    margin: 0px 5px;
+    color: #ccc;
+}
+
+.down-01 .demo-ul01 .demo-ul01-span02 {
+    margin-right: 24px;
+}
+
+.down-01 .demo-ul01 .demo-ul01-span03 {
+    margin-right: 24px;
+}
+
+.demo-ul01 span:nth-child(2) a:hover {
+    color: #ff8201;
+}
+
+
+/* 鼠标经过第一个li显示 */
+
+.nav_down ul li:hover {
+    background-color: white;
+    background-position: -1px -206px !important;
+}
+
+.nav_down ul li:hover .down-01 {
+    display: block;
+}
+
+.nav_down ul li:nth-child(2) .down-02-sapn {
+    margin-right: 25px;
+}
+
+.nav_down ul li:nth-child(2) .demo-ul01 .demo-ul01-span04 {
+    margin-right: 25px;
+}
+
+.nav_down ul li:nth-child(2) .demo-ul01 .demo-ul01-span04-span01 {
+    margin-left: 77px;
+}
+
+.nav_down ul li:nth-child(2) .demo-ul01 .demo-ul01-span04-span01 span {
+    margin: 0px 6px;
+    color: #ccc;
+}
+
+.nav_down ul li:nth-child(2) .demo-ul01 .demo-ul01-span04-span01 a:hover {
+    color: #ff8201;
+}
+
+.nav_down ul li:nth-child(2) .demo-ul01 .demo-ul01-span04-span02 {
+    margin-left: 53px;
+}
+
+.nav_down ul li:nth-child(2) .demo-ul01 .demo-ul01-span04-span02 a:hover {
+    color: #ff8201;
+}
+
+.nav_down ul li:nth-child(2) .demo-ul01 .demo-ul01-span04-span02 span {
+    margin: 0px 6px;
+    color: #ccc;
+}
+
+
+/* 重写第二个li的背景颜色 */
+
+.nav_down ul li:nth-child(2) {
+    background-position: -1px -262px !important;
+}
+
+.nav_down ul li:nth-child(2):hover {
+    background-position: -1px -318px !important;
+}
+
+.down-01 .demo-ul01 .ul-li3-demo-ul01 {
+    margin-right: 24px;
+}
+
+
+/* 结束第二重写的方法 */
+
+.nav_down ul li:nth-child(3) .demo-ul01 .demo-ul01-span04-span01 span {
+    margin: 0px 5px;
+    color: #ccc;
+}
+
+.nav_down ul li:nth-child(3) .demo-ul01 .demo-ul01-span04-span01 a:hover {
+    color: #ff8201;
+}
+
+.demo-ul01 .ul-li3-demo-ul01-span03 {
+    margin-left: 53px;
+}
+
+
+/* 重写第三个li的背景子 */
+
+.nav_down ul li:nth-child(3) {
+    background-position: -1px -372px !important;
+}
+
+.nav_down ul li:nth-child(3):hover {
+    background-position: -1px -428px !important;
+}
+
+
+/* -1px -428px !important */
+
+
+/* 重写第四个li .demo-ul01-span04-span01内边距 */
+
+ul li:nth-child(4) .demo-ul01-span04-span01 {
+    margin-right: 24px
+}
+
+.nav_down ul li:nth-child(4) .demo-ul01-span04-span02 {
+    margin-right: 12px
+}
+
+.nav_down ul li:nth-child(4) .demo-ul01-span04-span03 {
+    margin-right: 1px;
+}
+
+
+/* 重写第四个li的背景子 */
+
+.nav_down ul li:nth-child(4) {
+    background-position: -1px -483px !important;
+}
+
+.nav_down ul li:nth-child(4):hover {
+    background-position: -1px -539px !important;
+}
+
+.nav_down ul li:nth-child(5) .demo-ul01-span04-span03 {
+    margin-right: 2px;
+}
+
+
+/* 重写第五个li右侧的高度601，500 */
+
+ul li:nth-child(5) .down-01res {
+    height: 500px;
+}
+
+
+/* 重写第五个li的背景子 */
+
+.nav_down ul li:nth-child(5) {
+    background-position: -1px -593px !important;
+}
+
+.nav_down ul li:nth-child(5):hover {
+    background-position: -1px -649px !important;
+}
+
+.nav_down ul li:nth-child(6) .demo-ul01-span04-span02 {
+    margin-right: 24px
+}
+
+.nav_down ul li:nth-child(6) .demo-ul01-span04-span02-span {
+    margin-left: 76px;
+}
+
+.nav_down ul li:nth-child(6) .demo-ul01-span04-span03 {
+    margin-right: 0px
+}
+
+
+/* 修改第六个Li的背景色 */
+
+.nav_down ul li:nth-child(6) {
+    background-position: -1px -705px !important;
+}
+
+.nav_down ul li:nth-child(6):hover {
+    background-position: -1px -761px !important;
+}
+
+
+/* 解决bugli的宽带不够 */
+
+.nav_down ul li:nth-child(5)>.down-01 {
+    width: 620px;
+}
+
+
+/* 把所有li的变大点 */
+
+.nav_down ul li>a {
+    color: #777777;
+    font-size: 14px;
+    font-family: "微软雅黑";
+}
+
+.nav_down ul li>a:hover {
+    color: #ff8201;
+}
+
+.nav_down ul .nav_down-last-li {
+    background-image: none;
+    background-color: white;
+}
+
+.nav_down ul .nav_down-last-li:hover {
+    background-position: 0 0;
+}
+
+.menu_02-nav {
+    float: left;
+    width: 570px;
+    height: 45px;
+    margin-left: 31PX;
+}
+
+.menu_02-nav li {
+    width: 95px;
+    height: 45px;
+    float: left;
+}
+
+.menu_02-nav li a {
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: "微软雅黑";
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 30px;
+    text-align: left;
+    width: 120px;
+    color: white;
+}
+
+.headmain- {
+    color: white;
+    background: url("../img/images/icon-189-indexv2.png");
+    background-position: -217px -519px;
+}
+
+.menu_02-nav li:hover a {
+    color: white;
+    background: url("../img/images/icon-189-indexv2.png");
+    background-position: -217px -519px;
+    font-weight: 700;
+}
+
+.Sing {
+    float: right;
+    padding-top: 11px;
+    color: white;
+}
+
+.Sing li a {
+    color: white;
+}
+
+.Sing li:nth-child(1) {
+    background: url("../img/images/icon-189-indexv2.png");
+    width: 23px;
+    height: 16px;
+    background-position: -231px -184px;
+    padding-top: 1px;
+}
+
+.Sing li:nth-child(3) {
+    height: 13px;
+    width: 1px;
+    background-color: white;
+    margin-top: 6px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.Sing li a:hover {
+    text-decoration: underline;
+}
+
+.Sing li {
+    float: left;
+}
+
+.flexs {
+    width: 180px;
+    height: 210px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    display: block;
+}

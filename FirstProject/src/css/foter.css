@@ -1,0 +1,368 @@
+/* 尾部也一起放这了 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #777777;
+}
+
+.w {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.foot {
+    padding-top: 40px;
+    margin: 0 auto;
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+}
+
+.guarantee {
+    padding-left: 100px;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+
+.whov {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px solid #EEEEEE;
+}
+
+.bellows {
+    padding-top: 10px;
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    border-top: 1px solid #EEEEEE;
+}
+
+.footTwo {
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 1200px;
+    height: 150px;
+}
+
+
+/* 尾部第一部分 */
+
+.guarantee>ul>li {
+    float: left;
+    width: 210px;
+    list-style: none;
+}
+
+.guarantee>ul>li>span:nth-child(1) {
+    display: inline-block;
+    float: left;
+}
+
+.guarantee>ul>li>span:nth-child(2) {
+    margin-left: 15px;
+    margin-top: 4px;
+    display: inline-block;
+}
+
+.guarantee_li>span>a>img {
+    user-select: none;
+    display: inline;
+    border: 0px;
+}
+
+.ftsp>p:nth-child(1)>a {
+    font-size: 1.25em;
+}
+
+.ftsp>p:nth-child(2)>a {
+    font-size: 1em;
+}
+
+
+/* 尾部第二部分 */
+
+.whov>span {
+    display: inline;
+}
+
+.whov>span:nth-child(1) {
+    float: left;
+}
+
+.whov>span:nth-child(2) {
+    float: left;
+}
+
+.nofollow>img {
+    user-select: none;
+    display: inline;
+    border: 0px;
+}
+
+.foot_marker>li {
+    float: left;
+    font-size: 12px;
+    line-height: 24px;
+    width: 127px;
+}
+
+.foot_marker>li>p:nth-child(1) {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.foot_marker>li:nth-child(1) {
+    margin-left: 70px;
+}
+
+.foot_marker>li>p>a:hover {
+    color: #FF8200;
+}
+
+.frx>span:nth-child(1) {
+    margin-right: 17px;
+    float: left;
+    display: inline;
+}
+
+.frx>span:nth-child(2) {
+    width: 140px;
+    float: left;
+    display: inline;
+}
+
+.frx>span:nth-child(2)>ul>li {
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    width: 70px;
+}
+
+.frx_ul>li>a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.frx_ul>li>a>p:nth-child(1)>img {
+    user-select: none;
+    display: inline;
+    /* transform: rotate(0deg);
+	transform-origin: 50% 50% ;
+	transition: all .3s ease ; */
+}
+
+.tpzd {
+    transition: all 0.6s;
+}
+
+.tpzd:hover {
+    transition: all 0.6s ease;
+    -webkit-transform: rotateZ(360deg);
+    -moz-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+
+/* 尾部第三部分,链接 */
+
+.bellows_dv1 {
+    position: relative;
+    color: white;
+}
+
+.bellows_dv2 {
+    display: block;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bellows_dv1>ul>li:nth-child(1) {
+    color: #777777;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+}
+
+.bellows_dv1>ul>li:nth-child(1)>span {
+    margin-left: 20px;
+    color: #CCCCCC;
+    font-weight: normal;
+    font-size: 0.75em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bellows_dv1>ul>li:nth-child(2) {
+    color: #777777;
+    cursor: pointer;
+    font-weight: normal;
+    float: left;
+    font-size: 14px;
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.bellows_dv2>div {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bellows_dv2>div>div:nth-child(1) {
+    overflow: hidden;
+    height: 70px;
+    width: 1180px;
+    padding: 0px;
+    float: left;
+    display: inline;
+}
+
+.bellows_dv2_ul>li {
+    float: left;
+    margin-top: 12px;
+    min-width: 40px;
+    width: auto !important;
+    overflow: visible;
+    display: block;
+}
+
+.bellows_dv2_ul>li>a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #777777;
+}
+
+.bellows_dv2_ul>li>a:hover {
+    color: #FF8200;
+    text-decoration: underline;
+}
+
+.bellows_dv2_ul>li>a>span {
+    font-size: 12px;
+    color: #999;
+    padding: 0 5px;
+}
+
+.bellows_dv2_dv2 {
+    padding: 0;
+    margin-top: 47px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+}
+
+.xiajian {
+    text-decoration: none;
+    color: #777777;
+    float: right;
+    font-family: "宋体";
+    font-size: 12px;
+    cursor: pointer;
+    display: inline;
+}
+
+
+/* 尾部 */
+
+.footTwo {
+    padding-top: 30px;
+    margin: 0px auto;
+    width: 1200px;
+}
+
+.footTwo .clearfixone {
+    clear: both;
+    width: 1200px;
+    display: block;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.footTwo .clearfixone>a {
+    margin-right: 18px;
+    margin-left: 18px;
+}
+
+.clearfixone>a:hover {
+    color: #ff8200;
+}
+
+.clearFixtwo {
+    clear: both;
+}
+
+.clearFixtwo>p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.75em;
+    font-family: "微软雅黑";
+    color: #777777;
+}
+
+.clearFixthree {
+    margin-left: 175px;
+    margin-top: 30px;
+    padding-bottom: 40px;
+}
+
+.clearFixthree a:nth-child(2) {
+    margin-right: 5px;
+}
+
+.clearFixthree a:nth-child(2) img {
+    height: 34px;
+}
+
+.clearFixthree a:nth-child(3) img {
+    height: 34px;
+}
+
+.clearFixthree a:nth-child(3) {
+    margin-right: 5px;
+}
+
+.clearFixthree a:nth-child(4) img {
+    height: 34px;
+}
+
+.clearFixthree a:nth-child(4) {
+    margin-right: 5px;
+}
+
+.clearFixthree a:nth-child(5) img {
+    height: 34px;
+}
+
+.clearFixthree a:nth-child(5) {
+    margin-right: 5px;
+}
+
+.clearFixthree a:nth-child(6) img {
+    height: 34px;
+}
+
+.clearFixthree a:nth-child(6) {
+    margin-right: 5px;
+}
